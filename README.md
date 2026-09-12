@@ -7,13 +7,13 @@ A Spotify-inspired music streaming app built with Flutter, using Clean Architect
 ## Screenshots
 
 <p align="center">
-  <img src="docs/screenshots/onboard-1.png" width="250" />
-  <img src="docs/screenshots/onboard-2.png" width="250" />
-  <img src="docs/gifs/onboard-3.gif" width="250"/>
-  <img src="docs/screenshots/register.png" width="250" />
-  <img src="docs/screenshots/signin.png" width="250" />
-  <img src="docs/screenshots/home.png" width="250" />
-  <img src="docs/screenshots/song-player.png" width="250" />
+  <img src="docs/screenshots/onboard-1.png" width="200" />
+  <img src="docs/screenshots/onboard-2.png" width="200" />
+  <img src="docs/gifs/onboard-3.gif" width="200"/>
+  <img src="docs/screenshots/register.png" width="200" />
+  <img src="docs/screenshots/signin.png" width="200" />
+  <img src="docs/screenshots/home.png" width="200" />
+  <img src="docs/screenshots/song-player.png" width="200" />
 </p>
 
 ## Features
