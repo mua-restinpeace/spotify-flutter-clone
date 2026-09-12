@@ -6,14 +6,14 @@ A Spotify-inspired music streaming app built with Flutter, using Clean Architect
 
 ## Screenshots
 
-<p align="center">
-  <img src="docs/screenshots/onboard-1.png" width="200" />
-  <img src="docs/screenshots/onboard-2.png" width="200" />
-  <img src="docs/gifs/onboard-3.gif" width="200"/>
-  <img src="docs/screenshots/register.png" width="200" />
-  <img src="docs/screenshots/signin.png" width="200" />
-  <img src="docs/screenshots/home.png" width="200" />
-  <img src="docs/screenshots/song-player.png" width="200" />
+<p align="center" style="padding: 20px;">
+  <img src="docs/screenshots/onboard-1.png" width="200" hspace="10"/>
+  <img src="docs/screenshots/onboard-2.png" width="200"  hspace="10" />
+  <img src="docs/screenshots/onboard-3.png" width="200"  hspace="10"/>
+  <img src="docs/screenshots/register.png" width="200"  hspace="10" />
+  <img src="docs/screenshots/signin.png" width="200"  hspace="10" />
+  <img src="docs/screenshots/home.png" width="200"  hspace="10" />
+  <img src="docs/screenshots/song-player.png" width="200"  hspace="10" />
 </p>
 
 ## Features
@@ -56,8 +56,8 @@ lib/
 │   ├── song_player/
 │   ├── profile/
 │   └── choose_mode/
-├── service_locator.dart   # get_it dependency injection setup
-├── supabase.dart          # Supabase client initialization
+├── service_locator.dart    # get_it dependency injection setup
+├── supabase.dart           # Supabase client initialization
 └── main.dart               # App entry point
 ```
 
@@ -74,12 +74,14 @@ Each feature under `domain/` and `data/` is organized by responsibility (e.g. `a
 ### Setup
 
 1. **Clone the repo**
+
    ```bash
    git clone https://github.com/mua-restinpeace/spotify-flutter-clone.git
    cd spotify-flutter-clone
    ```
 
 2. **Install dependencies**
+
    ```bash
    flutter pub get
    ```
@@ -87,10 +89,12 @@ Each feature under `domain/` and `data/` is organized by responsibility (e.g. `a
 3. **Configure Firebase**
 
    This project uses `firebase_options.dart`, generated via the [FlutterFire CLI](https://firebase.google.com/docs/flutter/setup). If you're setting up your own Firebase project, run:
+
    ```bash
    dart pub global activate flutterfire_cli
    flutterfire configure
    ```
+
    This will regenerate `lib/firebase_options.dart` for your own Firebase project, and enable **Email/Password Authentication** and **Cloud Firestore** in the Firebase console.
 
 4. **Configure Supabase**
